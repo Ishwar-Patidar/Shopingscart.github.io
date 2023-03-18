@@ -1,0 +1,29 @@
+.brandLogo{
+    width: 20%;
+}
+
+ul li {
+
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 1em;
+    border-radius: 10%;
+}
+
+ul li:hover{
+    background-color: rgba(51, 49, 49, 0.63);
+}
+
+.trolly{
+    
+    position: relative;
+}
+
+.cart_item{
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: -7.6px;
+}

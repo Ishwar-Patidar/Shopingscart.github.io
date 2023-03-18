@@ -1,0 +1,134 @@
+.AboutBanner{
+    position: relative;
+    justify-content: center;
+    }
+    
+    .Banner_discription{
+        position: absolute;  
+        top: 40%;
+        /* left: 20%; 
+        right: 20%; */
+        text-align: center;
+    }
+    
+    .Banner_discription h1{
+    color: white;
+    }
+    
+    .Banner_discription p{
+    color: white;
+    }
+    
+    .Skill_section{
+    display: flex;
+    position: relative;
+    }
+    
+    
+    
+    .image_container{
+    position: relative;
+    padding: 2em;
+    }
+    .image_container figure img{
+        box-shadow: 0.3em 0.3em 0.5em #8152677a;
+    
+    }
+    
+    .skill_detail{
+    padding: 2em;
+    }
+    
+    .skill_detail h1{
+    color: rgba(0, 136, 255, 0.575);
+    font-weight: 700;
+    text-shadow: 0.3em 0.3em 0.5em red;
+    }
+    
+    .skill_detail p{
+    font-size: 1.1em;
+    }
+    
+    .skill_detail .icon {
+     margin: 0px  10px;
+    height: 1.2em;
+    background-color: aliceblue;
+    display: inline;
+    justify-content: center;
+    }
+    
+    /* ...........All Section css Start............ */
+    .section_heading{
+        color: rgba(0, 136, 255, 0.575);
+        font-weight: 700;
+        text-shadow: 0.3em 0.3em 0.5em red;
+        margin-bottom: 3%;
+    }
+    
+    /* ...........All Section css End............ */
+    
+    
+    /* ............Team Section Css Start ............*/
+    .team_detail{
+    position: relative;
+    margin: 2%;
+    }
+    
+    
+    .team_detail p{
+    color: navy;
+    }
+    
+    
+    
+    .team-cart{
+    margin: 2% 8%;
+    box-shadow: 0.3em 0.3em 0.3em gray;
+    padding-bottom: 2%;
+    }
+    
+    .team-cart figure img{
+    position: relative;
+    }
+    
+    .team-cart h3{
+    color: rgb(182, 32, 228);
+    font-weight: 500;
+    }
+    
+    .team-cart p{
+    
+        font-family: 400;
+        font-size: 1.1em;
+        
+    }
+    
+    /* ............Team Section Css End ............*/
+    
+    /* <!--............ Our Services Section Start............ --> */
+    .service_detail{
+        position: relative;
+        
+    }
+    
+    
+    
+    
+    .service_cart{
+        margin: 2% 8%;
+        box-shadow: 0.3em 0.3em 0.3em gray;
+        padding-bottom: 2%;
+    }
+    
+    
+    .cart-title-description h3{
+        color: rgb(182, 32, 228);
+        font-weight: 500;
+    }
+    
+    .cart-title-description p{
+        margin: 0% 6%; 
+    }
+    
+    
+    /* <!--............ Our Services Section End............ --> */

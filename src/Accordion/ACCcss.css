@@ -1,0 +1,25 @@
+.main_div{
+    margin: auto;
+    width: 50%;
+    
+    background-color: azure;
+    justify-content: center;
+    text-align: center;
+}
+
+.Quediv{
+    background-color: antiquewhite;
+    padding: 5%;
+    margin: 15px 0px;
+}
+
+.question{
+    font-size: 30px;
+}
+
+.icon{
+    background-color: rgba(235, 62, 114, 0.249);
+    border-radius: 50%;
+    padding: 10px 5px 10px 5px;
+    margin-right: 15px ;
+}

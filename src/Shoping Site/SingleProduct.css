@@ -1,0 +1,35 @@
+.SinglePBanner{
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+
+.BannerRow{
+    width: 100%;
+}
+
+.SinglePBanner .SinglePageBannerTitle{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
+
+.SinglePBanner {
+    color: White;
+}
+
+
+.totalAddedItemInput{
+   width: 30%;
+   font-size: 2rem; 
+
+}
+
+.btn-group{
+    position: relative;
+    right: -30%;
+}
+
+.Footer_container{
+    background-color: black;
+}

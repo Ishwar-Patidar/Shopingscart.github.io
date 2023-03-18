@@ -1,0 +1,116 @@
+.LeftContainer {
+    position: relative;
+    z-index: -1;
+}
+
+
+#BannerLeftImg {
+    width: 100%;
+
+}
+
+.bannerBody{
+     position: absolute;  
+    top: 20%;
+    left: 20%; 
+    right: 20%;
+}
+
+
+.BannerLeftImgTitle {
+  
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+}
+
+.bannerDiscrption{
+color: white;
+}
+
+.BannerRightContainer{
+    position: relative;
+    z-index: -1;
+
+}
+
+.imgbody{
+    position: absolute;  
+    top: 20%;
+    left: 20%; 
+    right: 20%;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.BannerRightContainer{
+background-color: rgba(173, 173, 232, 0.176);
+}
+
+.bannercard-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.description{
+color: white;
+}
+
+.bannerBody button{
+    background-color: aliceblue;
+}
+
+.bannerBody button:hover{
+    background-color: rgb(25, 136, 234);
+    color: aliceblue;
+}
+
+
+/* ?????????????????? */
+/* .....Men's Item Section  css Start...... */
+
+#MensWearSection{
+    margin-top: 20px ;
+    }
+    
+    
+    .mensHeading
+    {
+        font-weight: 500;
+        color: gray;
+        text-shadow: 0.2em 0.2em 0.5em red;
+       
+    }
+    
+    .mensHeading:hover
+    {
+      font-weight: 500;
+      transform: rotate(360deg);
+      transform-origin: left;
+      transition: 2s;
+    }
+    /* .....Men's Item Section  css END...... */
+    
+    
+    .card{
+        width: 11rem;
+    }
+    
+    .productsgap
+    {
+    display: flex;
+    justify-content: center;
+    }
+    
+    
+    
+    .content-center{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+/* ?????????????????? */

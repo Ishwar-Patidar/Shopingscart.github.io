@@ -1,0 +1,27 @@
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer_logo{
+width: 10rem;
+position: relative;
+margin-bottom: 4rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.textdesign h3{
+    color: rgb(234, 245, 19);
+    text-shadow: 0px 1px 2px white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.textdesign p{
+    font-size: 1.5rem;
+}
