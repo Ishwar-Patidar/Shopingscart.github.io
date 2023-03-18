@@ -1,0 +1,14 @@
+It allows you to use state  and other react features without writing a class.
+
+Hooks are the fonctions , which " hook into" react state and lifecycle features from function componants.
+
+it does not work inside the classes.
+
+
+When use hook ?
+If you write a function componant and then you want to add state to it, Previously you do this by converting it to a class , But now you can do it by using a Hook inside the existing function componant.
+
+
+TWO important rules for using hook?
+1. Only call hooks at the top level.
+2. Only Call hooks from react Function.

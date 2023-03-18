@@ -1,0 +1,54 @@
+[ 
+{
+    "id" :  1,
+    "Name": "Ishwar",
+    "Age" : "22",
+    "Class": "MCA",
+    "language": "Jawa",
+    "Game": [{
+        "id" :  1,
+        "Best": "Bat-minton",
+        "Better":"WWF",
+        "Good":"ludo"
+    }]
+},
+{
+    "id" :  2,
+    "Name": "Rahul",
+    "Age" : "23",
+    "Class": "MBA",
+    "language": "Python",
+    "Game": [{
+        "id" :  2,
+        "Best": "Ludo",
+        "Better":"Bat-Minton",
+        "Good":"Football"
+    }]
+},
+{
+    "id" :  3,
+    "Name": "Rajnish",
+    "Age" : "24",
+    "Class": "BCA",
+    "language": "PHP",
+    "Game": [{
+        "id" :  3,
+        "Best": "Cricket",
+        "Better":"Kabbadi",
+        "Good":"ludo"
+    }]
+},
+{
+    "id" :  4,
+    "Name": "Kailash",
+    "Age" : "25",
+    "Class": "BSC",
+    "language": "ROR",
+    "Game": [{
+        "id" :  4,
+        "Best": "Chase",
+        "Better":"Ludo",
+        "Good":"Cricket"
+    }]
+}
+]

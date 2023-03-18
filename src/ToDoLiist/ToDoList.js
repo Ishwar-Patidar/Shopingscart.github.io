@@ -40,4 +40,4 @@ const listOfItems = ()=>{
   )
 }
 
-export default ToDoList
+export default ToDoList;

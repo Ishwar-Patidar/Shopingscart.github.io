@@ -1,0 +1,14 @@
+.img-container{
+    height: 130px;
+    width: 110px;
+}
+
+.main_container{
+background-color: antiquewhite;
+}
+.form_container{
+    background-color: rgba(164, 164, 164, 0.266);
+}
+.btn{
+    font-size: 20px;
+}
