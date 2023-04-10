@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import { ItemContext } from './TaskA/ItemContext';
 // import JSoops from './JS/JSoops';
 
 // import Routing from './Routing.jsx/Routing';
@@ -10,12 +11,15 @@ import './App.css';
 // import Props from './Props/Props';
 // import Redux from './Redux/Redux';
 // import Reducer from './Reducer/Reducer';
-import Calculator from './Calculator/Calculator';
+// import Calculator from './Calculator/Calculator';
 // import Axious from './Axios/Axious'
 // import Incre_Decre from './incrementDecrement/Incre_Decre'
 // import Accordian from './Accordion/Accordian'
-import Filter from './FilterImage/Filter'
-import Index from './Result Show/Index';
+// import Filter from './FilterImage/Filter'
+// import Index from './Result Show/Index';
+// import Item from './TaskA/Item';
+import ItemList from './TaskA/ItemList';
+// import VRLine from './VerticalLine.jsx/VRLine';
 // import Search from './SearchData/Search'
 // import Form from './ReactForm/Form'
 // import Header from './Shoping Site/Header'
@@ -33,7 +37,7 @@ function App() {
     <div>
       {/* <JSoops/> */}
       {/* <Routing/> */}
-    {/* <Calender/> */}
+      {/* <Calender/> */}
       {/* <UseStateHook/>
       <UseEffectHook/> */}
       {/* <Header/>
@@ -59,9 +63,12 @@ function App() {
     <Search/>
     <Form/>
      */}
-    {/* <Redux/> */}
-    {/* <Calculator/>  <Filter/> */}
-    <Index/>
+      {/* <Redux/> */}
+      {/* <Calculator/>  <Filter/> */}
+      {/* <Index /> */}
+      <ItemContext>
+        <ItemList />
+      </ItemContext>
     </div>
   )
 }
